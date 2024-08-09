@@ -1,0 +1,231 @@
+body{
+    font-family: 'poppins' , sans-serif;
+    
+    
+    }
+    
+    
+    .header{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 15%; /*La distancia quw se mantiene *//*el 20px sirve para poder mever hacia abajo  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    }
+.logo img{
+    width: 100px;
+        height: 60px;
+    }
+    
+    
+    .navigation ul{
+    list-style: none;
+    }
+    
+    
+    .header .navigation ul li {
+    float: left;
+    position: relative;
+    }
+    
+    
+    .header .navigation ul li a {
+    font-size: 15px;
+    color:#242121;/*Color del tetxo*/
+    text-decoration: none;
+    padding: 10px; /*Tamaño de cada borde de las opciones del menu*/
+    margin: 20px; /*separacion de  cuadro de las opciones del menu **/
+    display: block;
+    background-color: #ff8c00;
+    transition: all .2s ease;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+    
+    }
+    
+    
+    .header .navigation ul li a:hover{
+    background-color: hsl(74, 80%, 49%);
+    }
+    <header class="header">
+        <div class="logo">
+            <img src="img/image3.png" alt="">
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Historia </a></li>
+                <li><a href="#">Video</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo"> Bienvenidos a Valle Grande</h1>
+body{
+    font-family: 'poppins' , sans-serif;
+    
+    
+    }
+
+    .header{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 15%; /*La distancia quw se mantiene *//*el 20px sirve para poder mever hacia abajo  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    }
+    
+    
+    .logo img{
+    width: 100px;
+        height: 60px;
+    }
+    
+    
+    .navigation ul{
+    list-style: none;
+    }
+    
+    
+    .header .navigation ul li {
+    float: left;
+    position: relative;
+    }
+.header .navigation ul li a {
+    font-size: 15px;
+    color:#242121;/*Color del tetxo*/
+    text-decoration: none;
+    padding: 10px; /*Tamaño de cada borde de las opciones del menu*/
+    margin: 20px; /*separacion de  cuadro de las opciones del menu **/
+    display: block;
+    background-color: #ff8c00;
+    transition: all .2s ease;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+    
+    }
+    
+    
+    .header .navigation ul li a:hover{
+    background-color: hsl(74, 80%, 49%);
+    }
+.titulo{
+        text-align: center;
+    }
+    .principal{
+    height: 10%;
+    width: 60%;
+    margin-left: 20%;
+    }
+    .parrafo1 h2{
+        color: red;
+        margin-left: 18%;
+    }
+    .parrafo1 p{
+    text-align: justify;
+    font-family: Arial;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 100%;
+    }
+    .parrafo2 {
+        display: flex;
+    }
+    .parrafo0{
+        color: rgb(23, 62, 204);
+        margin-left: 18%;
+    }
+    
+    
+    .parrafo2 img {
+        height: 150px;
+        width: 150px;
+        margin-left: 10%;
+    }
+    .parrafo2 p{
+        margin-left: 20%;    
+    }
+    .botton a{
+        color: black;
+    
+    }
+    .botton{
+        font-size: 15px;
+        color:#242121;/*Color del tetxo*/
+        padding: 10px; /*Tamaño de cada borde de las opciones del menu*/
+        background-color: #ff8c00;
+        border: 1px solid black;
+        border-radius: 50px;
+        margin-left:20%;
+    
+    
+    }
+    .mision-vicion h2{
+        color: red;
+        margin-left: 18%;
+    
+    
+    }
+    .mision-vicion h3{
+        color: rgb(255, 112, 3);
+        margin-left:18%;
+    }
+    .mision-vicion p{
+        margin-left:18%;  
+    }
+    .enlace{
+        color: #1838ee;
+    margin-left: 20%;
+    font-weight: bold;
+    margin-left: 18%;
+    }
+    .canal h3{
+        color: blue;
+        text-align: center;
+    }
+    .canal img{
+        width: 60%;
+        height: 70%;
+        margin-left: 25%;
+    }
+    .piepagina footer {
+        background-color: #1838ee;
+        color: #fff;
+        padding: 20px;
+    
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    a {
+        color: #fff;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    
+    
+    footer img{
+        width: 40px;
+        height: 30px;
+        margin: 0 10px;
+    }
